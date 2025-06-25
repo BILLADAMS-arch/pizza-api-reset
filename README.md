@@ -11,7 +11,6 @@ pipenv install flask flask-sqlalchemy flask-migrate
 pipenv shell
 
 ### 2. Set Up the Database
-
 ``bash
 export FLASK_APP=server/app.py
 flask db init
@@ -55,23 +54,26 @@ The server will run at: http://127.0.0.1:5000
 
 #### 📥 Request Body Example
 ```json
+
 {
   "price": 15,
   "pizza_id": 1,
   "restaurant_id": 2
 }
+```
 
-## 🗂️ Project Structure
-```bash
+### 🗂️ Project Structure
+
+``bash
 server/
-├── app.py # Application entry point
-├── config.py # Database configuration
-├── models/ # SQLAlchemy models
-│ ├── restaurant.py
-│ ├── pizza.py
-│ └── restaurant_pizza.py
-├── controllers/ # API route handlers (blueprints)
-└── seed.py # Sample data seeder
+├── app.py               # Application entry point
+├── config.py            # Database configuration
+├── models/              # SQLAlchemy models
+│   ├── restaurant.py
+│   ├── pizza.py
+│   └── restaurant_pizza.py
+├── controllers/         # API route handlers (blueprints)
+└── seed.py              # Sample data seeder
 
 ---
 
