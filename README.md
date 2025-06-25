@@ -54,7 +54,7 @@ The server will run at: http://127.0.0.1:5000
   → Creates a new relationship between a restaurant and a pizza
 
 #### 📥 Request Body Example
-```json
+``json
 {
   "price": 15,
   "pizza_id": 1,
@@ -62,7 +62,7 @@ The server will run at: http://127.0.0.1:5000
 }
 
 ## 🗂️ Project Structure
-```bash
+``bash
 server/
 ├── app.py # Application entry point
 ├── config.py # Database configuration
