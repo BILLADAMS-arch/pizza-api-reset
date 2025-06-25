@@ -6,28 +6,25 @@ Implements an MVC-style architecture with support for restaurant-pizza relations
 ## 🚀 Quick Start
 
 ### 1. Install Dependencies
-```bash
+``bash
 pipenv install flask flask-sqlalchemy flask-migrate
 pipenv shell
 
-
 ### 2. Set Up the Database
-```bash
+
+``bash
 export FLASK_APP=server/app.py
 flask db init
 flask db migrate -m "Initial migration"
 flask db upgrade
 
 ### 3. Seed the Database and Run the Server
-```bash
+``bash
 python server/seed.py
 python server/app.py
 
-The server will run at: http://127.0.0.1:5000
-
----
-
 ## 📦 API Endpoints
+The server will run at: http://127.0.0.1:5000
 
 ### 📍 Restaurants
 
