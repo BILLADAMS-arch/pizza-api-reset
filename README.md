@@ -61,7 +61,6 @@ The server will run at: http://127.0.0.1:5000
 
 ### 🗂️ Project Structure
 
-## 🗂️ Project Structure
 ```bash
 server/
 ├── app.py # Application entry point
@@ -74,6 +73,7 @@ server/
 └── seed.py # Sample data seeder
 
 ---
+```
 
 ## 🧠 Models
 
